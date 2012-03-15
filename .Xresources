@@ -1,0 +1,34 @@
+#define FONT                      -*-terminus-medium-*-*-*-12-*-*-*-*-*-*-*
+#define FONT_BOLD                 -*-terminusmodx-bold-*-*-*-12-*-*-*-*-*-*-*
+#define FONT_ITALIC               xft:Terminus (TTF):style=MediumItalic,pixelsize=12
+! good for c code.
+!#define FONT                      -*-proggytiny-*-*-*-*-*-*-*-*-*-*-*-*
+!#define FONT_BOLD                 -*-proggytiny-*-*-*-*-*-*-*-*-*-*-*-*
+!#define FONT                      -*-profont-*-*-*-*-11-*-*-*-*-*-*-*
+!#define FONT_BOLD                 -*-profont-*-*-*-*-11-*-*-*-*-*-*-*
+! Good  for c++ code - bold punctuation.
+!#define FONT                      -*-montecarlo-medium-*-*-*-*-*-*-*-*-*-*-*
+!#define FONT_BOLD                 -*-montecarlo-bold-*-*-*-*-*-*-*-*-*-*-*
+!#define FONT                      -*-speedy-*-*-*-*-11-*-*-*-*-*-*-*
+!#define FONT_BOLD                 -*-speedy-*-*-*-*-11-*-*-*-*-*-*-*
+
+!Rxvt*foreground: white
+!Rxvt*background: black
+URxvt*font: FONT
+URxvt*boldFont: FONT_BOLD
+URxvt*italicFont: FONT_ITALIC
+
+
+!XTerm*background:               Black
+!XTerm*foreground:               White
+!XTerm*font:                     -xos4-terminus-medium-r-normal--14-140-72-72-c-80-iso8859-1
+!XTerm*boldFont:                 -xos4-terminus-bold-r-normal--14-140-72-72-c-80-iso8859-1
+!XTerm*visualBell:              true
+!XTerm*font:                     -*-montecarlo-medium-*-*-*-*-*-*-*-*-*-*-*
+!XTerm*boldFont:                 -*-montecarlo-bold-*-*-*-*-*-*-*-*-*-*-*
+
+XLock.mode:                     blank
+
+#include ".xrdb/look-zenburn.xrdb"
+#include ".xrdb/xterm.xrdb"
+#include ".xrdb/urxvt.xrdb"
